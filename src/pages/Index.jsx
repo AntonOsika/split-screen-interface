@@ -47,7 +47,7 @@ const Index = () => {
                 </Box>
                 <Box flex={1}>
                   <Box bg="blue.200" p={4} borderRadius="md">
-                    <Text>Devin is waiting to start up... Hey Devin, I'd like for you to benchmark Llama 2 on three different provide[...]</Text>
+                    <Text>Devin. You should hereby be called: Open Devin.</Text>
                   </Box>
                 </Box>
               </HStack>
