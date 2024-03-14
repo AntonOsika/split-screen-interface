@@ -31,10 +31,12 @@ const Index = () => {
         {/* Tabs */}
         <Tabs isFitted variant="enclosed">
           <TabList>
-            <Tab>Shell</Tab>
-            <Tab _selected={{ color: "white", bg: "gray.700" }}>Browser</Tab>
-            <Tab>Editor</Tab>
-            <Tab>Planner</Tab>
+            <Tab color="gray.400">Shell</Tab>
+            <Tab color="gray.400" _selected={{ color: "white", bg: "gray.700" }}>
+              Browser
+            </Tab>
+            <Tab color="gray.400">Editor</Tab>
+            <Tab color="gray.400">Planner</Tab>
           </TabList>
           <TabPanels>
             <TabPanel>
